@@ -97,7 +97,7 @@ nav {
 
 .yellow-icon {
   color: #fad133;
-  margin-inline: 10px;
+  margin-inline: 5px;
 }
 
 .hero-buttons {
@@ -169,24 +169,17 @@ nav {
 
 .abt-images {
   width: 50%;
-  border: 1px solid red;
 }
 
 .collage {
-  border: 1px solid lime;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-auto-rows: minmax(100px, auto);
-  grid-gap: 20px;
-}
-
-.image-wrapper {
-  border: 1px solid blue;
+  grid-gap: 10px;
 }
 
 .image-wrapper img {
   width: 100%;
-  margin-bottom: 20px;
 }
 
 /* committees */
@@ -490,8 +483,8 @@ nav {
 .gallery-images {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  grid-column-gap: 18px;
-  grid-row-gap: 5px;
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
 }
 
 .gallery-images img {
@@ -692,10 +685,10 @@ footer p {
     padding: 3rem 4rem;
   }
 
-  .responsive {
+  /* .responsive {
     width: 49.99999%;
     margin: 6px 0;
-  }
+  } */
 
   footer {
     padding: 3rem 4rem 0;
@@ -780,6 +773,10 @@ footer p {
     padding: 3rem 2rem;
   }
 
+  .committee-cards {
+    grid-template-columns: 1fr;
+  }
+
   #agenda {
     padding: 3rem 2rem;
   }
@@ -826,9 +823,17 @@ footer p {
   .gallery-img img {
     border-radius: 8px;
     border: 1px solid #343434;
+    height: 100%;
+    object-fit: contain;
   }
 
   footer {
     padding: 2rem 2rem 0;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  .banner-title {
+    font-size: 2.5rem;
   }
 }
