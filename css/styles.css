@@ -442,14 +442,13 @@ nav {
   font-family: "Source Serif 4", serif;
 }
 
-.gallery-images {
+/* .gallery-images {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   border: 1px solid lime;
   align-items: center;
   gap: 16px;
-  /* max-width: 100%; */
   margin: 0 auto;
 }
 
@@ -466,6 +465,26 @@ nav {
 .gallery::after {
   content: "";
   width: 380px;
+}
+. */
+
+div.gallery img {
+  border: 2px solid #dddddd;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.responsive {
+  padding: 10px 15px;
+  float: left;
+  width: 24.99999%;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 /* footer  */
@@ -641,6 +660,11 @@ footer p {
     padding: 3rem 4rem;
   }
 
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+
   footer {
     padding: 3rem 4rem 0;
   }
@@ -709,6 +733,10 @@ footer p {
   }
 
   .btn {
+    width: 100%;
+  }
+
+  .responsive {
     width: 100%;
   }
 
