@@ -63,6 +63,106 @@ nav {
   background-color: #121112;
   color: #fff;
   text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.hero-background {
+  position: absolute;
+  width: 100%;
+}
+
+.himg-1 {
+  width: 200px;
+  position: absolute;
+  left: 15%;
+}
+
+.himg-1 img {
+  object-fit: cover;
+  aspect-ratio: 3/2;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.himg-2 {
+  width: 200px;
+  margin-left: 1%;
+  margin-top: 10%;
+  position: absolute;
+  top: 0;
+}
+
+.himg-2 img {
+  object-fit: cover;
+  width: 150px;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.himg-3 {
+  width: 200px;
+  position: absolute;
+  left: 0;
+  inset: 320px 250px;
+}
+
+.himg-3 img {
+  object-fit: cover;
+  object-position: left;
+  width: 170px;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.himg-4 img {
+  object-fit: cover;
+  aspect-ratio: 3/2;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.himg-4 {
+  position: absolute;
+  top: 0;
+  right: 13%;
+  width: 200px;
+}
+
+.himg-5 img {
+  object-fit: cover;
+  aspect-ratio: 3/2;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.himg-5 {
+  position: absolute;
+  top: 200px;
+  right: 18%;
+  width: 200px;
+}
+
+.himg-6 img {
+  object-fit: cover;
+  object-position: center;
+  aspect-ratio: 3/2;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.himg-6 {
+  position: absolute;
+  right: 5%;
+  top: 350px;
+  width: 200px;
+  height: 170px;
+  width: 140px;
 }
 
 .hero-container {
@@ -611,6 +711,9 @@ footer p {
 /* meadia queries */
 
 @media only screen and (max-width: 992px) {
+  .hero-background {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 768px) {
