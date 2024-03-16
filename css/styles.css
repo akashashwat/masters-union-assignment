@@ -211,7 +211,6 @@ nav {
 .committee-cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-
   width: 100%;
   gap: 15px;
 }
@@ -252,7 +251,6 @@ nav {
 }
 
 .agenda-container {
-  min-width: 473px;
   max-width: 100%;
   width: 100%;
   margin: auto;
@@ -292,7 +290,6 @@ nav {
 .agenda-card {
   padding: 10px;
   display: flex;
-  flex-wrap: wrap;
   gap: 18px;
   border: 2px solid #ffe8ca;
   border-radius: 6px;
@@ -740,6 +737,10 @@ footer p {
     width: 100%;
   }
 
+  #committees {
+    padding: 3rem 2rem;
+  }
+
   #agenda {
     padding: 3rem 2rem;
   }
@@ -760,10 +761,6 @@ footer p {
   .agenda-cards {
     grid-template-columns: 1fr;
     grid-gap: 0.5rem;
-  }
-
-  .agenda-card {
-    width: 60%;
   }
 
   footer {
