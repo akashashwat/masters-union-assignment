@@ -13,7 +13,7 @@ Font Awesome (for icons)
 GitHub (for version control)
 Netlify (for hosting)
 
-
+.
 Features
 Responsive design: The layout adjusts seamlessly across different screen sizes and devices.
 Font Awesome Icons: Utilized for various icons throughout the design.
